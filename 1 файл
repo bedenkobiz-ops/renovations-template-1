@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remonty Krakowa – Profesjonalne usługi remontowe</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Remonty Krakowa</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Usługi</a></li>
+            <li><a href="#work">Realizacje</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+
+        <div class="lang-switch">
+            <img src="images/flag-en.png" onclick="setLanguage('en')">
+            <img src="images/flag-ua.png" onclick="setLanguage('ua')">
+        </div>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Profesjonalne remonty w Krakowie</h1>
+        <p>Kompleksowe wykończenia mieszkań i domów – szybko, solidnie i w dobrej cenie.</p>
+        <a href="#contact" class="btn">Bezpłatna wycena</a>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <h2>Nasze usługi</h2>
+
+    <div class="service-list">
+        <div class="service-item">
+            <img src="images/living-room-1.jpg">
+            <h3>Wykończenia wnętrz</h3>
+            <p>Kompleksowe remonty mieszkań i domów pod klucz.</p>
+        </div>
+
+        <div class="service-item">
+            <img src="images/kitchen-1.jpg">
+            <h3>Kuchnie i łazienki</h3>
+            <p>Specjalizacja w remontach kuchni i łazienek.</p>
+        </div>
+
+        <div class="service-item">
+            <img src="images/electrical-work.jpg">
+            <h3>Instalacje elektryczne</h3>
+            <p>Modernizacja, wymiana i montaż instalacji.</p>
+        </div>
+
+        <div class="service-item">
+            <img src="images/plumbing-work.jpg">
+            <h3>Hydraulika</h3>
+            <p>Wymiana rur, montaż armatury, usuwanie awarii.</p>
+        </div>
+    </div>
+</section>
+
+<section id="work" class="portfolio">
+    <h2>Nasze realizacje</h2>
+
+    <div class="gallery">
+        <img src="images/bathroom-1.jpg">
+        <img src="images/bedroom-1.jpg">
+        <img src="images/office-reception.jpg">
+        <img src="images/retail-store.jpg">
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Kontakt</h2>
+
+    <p>Telefon: <strong>+48 883‑465‑816</strong></p>
+    <p>Obsługujemy: <strong>Kraków + okolice</strong></p>
+
+    <form id="contactForm">
+        <input type="text" name="name" placeholder="Imię" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Wiadomość" required></textarea>
+        <button type="submit">Wyślij</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Remonty Krakowa – Wszystkie prawa zastrzeżone</p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="languages/en.js"></script>
+<script src="languages/ua.js"></script>
+
+</body>
+</html>
