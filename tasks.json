@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start PHP Server",
+			"type": "shell",
+			"command": "powershell.exe",
+			"args": [
+				"-c",
+				"Start-Process -FilePath 'http://localhost:8000'; php -S localhost:8000"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"isBackground": true,
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			}
+		}
+	]
+}

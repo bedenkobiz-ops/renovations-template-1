@@ -1,0 +1,41 @@
+[2025-06-01 22:43:57] WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2025-06-01 22:43:57] INFO:  * Running on http://192.168.2.4:8000/ (Press CTRL+C to quit)
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "GET /?id=2fab3dc6-2a8a-4a0e-bbd2-15ccb85b6b5c&vscodeBrowserReqId=1748807062611 HTTP/1.1" 200 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /languages/en.js HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /languages/el.js HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /images/bathroom-1.jpg HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /images/kitchen-1.jpg HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /images/office-reception.jpg HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /images/hero-banner-3.jpg HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /js/script.js HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /images/bathroom-2.jpg HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /images/bedroom-1.jpg HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /images/living-room-1.jpg HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /images/retail-store.jpg HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:23] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:23] "[36mGET /images/electrical-work.jpg HTTP/1.1[0m" 304 -
+[2025-06-01 22:44:24] INFO: 127.0.0.1 - - [01/Jun/2025 22:44:24] "[36mGET /images/plumbing-work.jpg HTTP/1.1[0m" 304 -
+[2025-06-01 22:56:38] WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2025-06-01 22:56:38] INFO:  * Running on http://192.168.2.4:8000/ (Press CTRL+C to quit)
+[2025-06-01 22:57:22] INFO: 192.168.2.4 - - [01/Jun/2025 22:57:22] "GET / HTTP/1.1" 200 -
+[2025-06-01 22:57:22] INFO: 192.168.2.4 - - [01/Jun/2025 22:57:22] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+[2025-06-01 22:57:22] INFO: 192.168.2.4 - - [01/Jun/2025 22:57:22] "[36mGET /languages/en.js HTTP/1.1[0m" 304 -
+[2025-06-01 22:57:22] INFO: 192.168.2.4 - - [01/Jun/2025 22:57:22] "[36mGET /languages/el.js HTTP/1.1[0m" 304 -
+[2025-06-01 22:57:23] INFO: 192.168.2.4 - - [01/Jun/2025 22:57:23] "GET /js/script.js HTTP/1.1" 200 -
+[2025-06-01 22:58:57] WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2025-06-01 22:58:57] INFO:  * Running on http://192.168.2.4:8000/ (Press CTRL+C to quit)
+[2025-06-01 22:59:26] INFO: 192.168.2.4 - - [01/Jun/2025 22:59:26] "GET / HTTP/1.1" 200 -
+[2025-06-01 22:59:26] INFO: 192.168.2.4 - - [01/Jun/2025 22:59:26] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+[2025-06-01 22:59:26] INFO: 192.168.2.4 - - [01/Jun/2025 22:59:26] "[36mGET /languages/el.js HTTP/1.1[0m" 304 -
+[2025-06-01 22:59:26] INFO: 192.168.2.4 - - [01/Jun/2025 22:59:26] "[36mGET /languages/en.js HTTP/1.1[0m" 304 -
+[2025-06-01 22:59:26] INFO: 192.168.2.4 - - [01/Jun/2025 22:59:26] "GET /js/script.js HTTP/1.1" 200 -
+[2025-06-01 22:59:31] INFO: 192.168.2.4 - - [01/Jun/2025 22:59:31] "[31m[1mPOST /submit-form HTTP/1.1[0m" 405 -
+[2025-06-01 23:01:56] WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2025-06-01 23:01:56] INFO:  * Running on http://192.168.2.4:8000/ (Press CTRL+C to quit)
+[2025-06-01 23:07:49] WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2025-06-01 23:07:49] INFO:  * Running on http://192.168.2.4:5000/ (Press CTRL+C to quit)
